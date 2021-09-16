@@ -24,7 +24,6 @@ import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_scrolling.*
 import kotlinx.android.synthetic.main.content_scrolling.*
 import kotlinx.android.synthetic.main.content_scrolling.progressBar
-import kotlinx.android.synthetic.main.content_scrolling.rvCuratedPhotos
 import kotlinx.android.synthetic.main.content_scrolling.txvError
 import kotlinx.android.synthetic.main.grid_item.view.*
 import android.view.WindowManager
