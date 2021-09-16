@@ -1,7 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
     id 'kotlin-android-extensions'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.30' apply(true)
 }
 
 android {
@@ -58,6 +60,8 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
 
     implementation 'io.reactivex.rxjava3:rxjava:3.0.13'
+
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0-RC")
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

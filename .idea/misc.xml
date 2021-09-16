@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/drawable/background_black_gradient.xml" value="0.2824074074074074" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/drawable/circle_black_transparent.xml" value="0.28615384615384615" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.17637215528781794" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.16905737704918034" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/activity_detail_photo.xml" value="0.264" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/activity_detail_scrolling.xml" value="0.21920289855072464" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/activity_scrolling.xml" value="0.30864197530864196" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/content_scrolling.xml" value="0.22418478260869565" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/grid_item.xml" value="0.22418478260869565" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/list_item.xml" value="0.22418478260869565" />
+        <entry key="..\:/Backup/AndroidStudioProjects/AwesomeApp/app/src/main/res/layout/network_state_item.xml" value="0.22418478260869565" />
         <entry key="..\:/Backup/AndroidStudioProjects/app/src/main/res/layout/activity_scrolling.xml" value="0.23324275362318841" />
         <entry key="..\:/Backup/AndroidStudioProjects/app/src/main/res/menu/menu_scrolling.xml" value="0.27447916666666666" />
       </map>

@@ -1,5 +1,10 @@
 package com.abidzar.awesomeapp.model.data.curatedphotos
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+import kotlinx.serialization.Serializable
+
+@Parcelize
 data class Src(
     val landscape: String,
     val large: String,
@@ -9,4 +14,4 @@ data class Src(
     val portrait: String,
     val small: String,
     val tiny: String
-)
+) : Parcelable

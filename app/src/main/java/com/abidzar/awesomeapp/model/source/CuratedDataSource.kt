@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
 import com.abidzar.awesomeapp.model.data.curatedphotos.Photo
 import com.abidzar.awesomeapp.model.network.Service
+import com.abidzar.awesomeapp.model.network.apiKey
 import com.abidzar.awesomeapp.model.network.firstPage
 import com.abidzar.awesomeapp.model.network.postPerPage
 import com.abidzar.awesomeapp.model.repository.NetworkState
@@ -24,7 +25,7 @@ class CuratedDataSource(
         networkState.postValue(NetworkState.LOADING)
 
         compositeDisposable.add(
-            apiService.getCuratedPhotos(params.key, postPerPage)
+            apiService.getCuratedPhotos(apiKey, params.key, postPerPage)
                 .subscribeOn(Schedulers.io())
                 .subscribe({
                     if (it.total_results / postPerPage >= params.key) {
@@ -51,7 +52,7 @@ class CuratedDataSource(
         networkState.postValue(NetworkState.LOADING)
 
         compositeDisposable.add(
-            apiService.getCuratedPhotos(page, postPerPage)
+            apiService.getCuratedPhotos(apiKey, page, postPerPage)
                 .subscribeOn(Schedulers.io())
                 .subscribe({
                     callback.onResult(it.photos, null, page + 1)

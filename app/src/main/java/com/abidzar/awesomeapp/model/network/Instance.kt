@@ -28,7 +28,6 @@ class Instance {
                 val url : HttpUrl = chain.request()
                     .url
                     .newBuilder()
-                    .addQueryParameter("Authorization", apiKey)
                     .build()
 
                 val request: Request = chain.request()
